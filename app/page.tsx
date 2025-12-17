@@ -60,6 +60,9 @@ export default function Portfolio() {
           <Button variant="outline">
             <Phone className="mr-2" /> +91 9149703890
           </Button>
+          <a href="/Shariq_Ahmad_Resume.pdf" download>
+            <Button>Download Resume</Button>
+          </a>
         </motion.div>
       </section>
 
