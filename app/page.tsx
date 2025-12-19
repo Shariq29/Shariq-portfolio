@@ -219,7 +219,7 @@ export default function Portfolio() {
               Transforming data into actionable insights with machine learning and statistical modeling
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <a href="shariqsayeed33@gmail.com" className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-all shadow-lg hover:shadow-xl">
+              <a href="mailto:shariqsayeed33@gmail.com" className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-all shadow-lg hover:shadow-xl">
                 <Mail size={20} />
                 Contact Me
               </a>
