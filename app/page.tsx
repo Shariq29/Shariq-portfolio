@@ -26,7 +26,7 @@ export default function Portfolio() {
   const skills = {
     'Programming': [
       { name: 'Python', level: 90 },
-      { name: 'SQL', level: 85 },
+      { name: 'SQL', level: 90 },
       { name: 'C/C++', level: 75 }
     ],
     'Data Science & ML': [
@@ -209,7 +209,7 @@ export default function Portfolio() {
               Shariq Ahmad
             </h1>
             <div className="text-2xl md:text-3xl text-gray-700 mb-6 font-medium">
-              <span className="inline-block">Data Scientist</span>
+              <span className="inline-block">Aspiring Data Scientist</span>
               <span className="mx-3 text-blue-600">|</span>
               <span className="inline-block">ML Engineer</span>
               <span className="mx-3 text-blue-600">|</span>
@@ -219,7 +219,7 @@ export default function Portfolio() {
               Transforming data into actionable insights with machine learning and statistical modeling
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <a href="mailto:shariqsayeed33@gmail.com" className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-all shadow-lg hover:shadow-xl">
+              <a href="shariqsayeed33@gmail.com" className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-all shadow-lg hover:shadow-xl">
                 <Mail size={20} />
                 Contact Me
               </a>
@@ -229,10 +229,10 @@ export default function Portfolio() {
               </a>
             </div>
             <div className="flex justify-center gap-6 mt-8">
-              <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
+              <a href="https://github.com/Shariq29" className="text-gray-600 hover:text-blue-600 transition-colors">
                 <Github size={28} />
               </a>
-              <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
+              <a href="www.linkedin.com/in/shariq-ahmad-a04147234" className="text-gray-600 hover:text-blue-600 transition-colors">
                 <Linkedin size={28} />
               </a>
             </div>
@@ -272,7 +272,7 @@ export default function Portfolio() {
                   <div className="bg-green-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
                     <Database className="text-white" size={28} />
                   </div>
-                  <div className="text-2xl font-bold text-green-600">2+</div>
+                  <div className="text-2xl font-bold text-green-600">Fresher</div>
                   <div className="text-sm text-gray-600">Years Exp</div>
                 </div>
                 <div className="text-center">
