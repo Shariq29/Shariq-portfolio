@@ -61,6 +61,7 @@ export default function Portfolio() {
       description: 'End-to-end ML project predicting newborn birth weight using regression techniques. Implemented feature engineering, hyperparameter tuning, and deployed with REST API.',
       tech: ['Python', 'Scikit-learn', 'Flask', 'Pandas'],
       github: 'https://github.com/Shariq29/Birth-Weight-Predictor.git',
+      live: 'https://birth-weight-predictor-z6o2.onrender.com/',
       metrics: 'MAE: 0.42kg, R²: 0.87'
     },
     {
@@ -68,6 +69,7 @@ export default function Portfolio() {
       description: 'Real estate price prediction model using location, size, and amenities. Built data pipeline with extensive EDA and feature selection.',
       tech: ['Python', 'XGBoost', 'Streamlit', 'NumPy'],
       github: 'https://github.com/Shariq29/bangalore-house-price-predictor.git',
+      live: 'https://bangalore-house-price-predictor-tskt.onrender.com/',
       metrics: 'Accuracy: 85%, MAPE: 12%'
     },
     {
@@ -75,6 +77,7 @@ export default function Portfolio() {
       description: 'Classification model to predict customer churn with 89% accuracy. Handled class imbalance using SMOTE and optimized for business metrics.',
       tech: ['Python', 'TensorFlow', 'SMOTE', 'FastAPI'],
       github: 'https://github.com/Shariq29/Customer-Churn-Prediction.git',
+      live: 'https://customer-churn-predictiongit.streamlit.app/',
       metrics: 'F1-Score: 0.86, ROC-AUC: 0.92'
     }
   ];
@@ -106,7 +109,7 @@ export default function Portfolio() {
 
   const caseStudies = [
     {
-      title: 'Reducing MAE in Birth Weight Prediction',
+      title: 'Reducing MAE in Bangalore House Price Predictor',
       description: 'Deep dive into feature engineering techniques and hyperparameter tuning strategies that improved model performance by 23%.',
       link: 'https://github.com/Shariq29/bangalore-house-price-predictor/blob/main/model/Machine%20Learning%20%26%20Data%20Science%20Project%20(Real%20Estate%20Price%20Prediction)%20(1).ipynb'
     },
