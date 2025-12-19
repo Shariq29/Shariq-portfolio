@@ -232,7 +232,7 @@ export default function Portfolio() {
               <a href="https://github.com/Shariq29" className="text-gray-600 hover:text-blue-600 transition-colors">
                 <Github size={28} />
               </a>
-              <a href="www.linkedin.com/in/shariq-ahmad-a04147234" className="text-gray-600 hover:text-blue-600 transition-colors">
+              <a href="https://www.linkedin.com/in/shariq-ahmad-a04147234/" className="text-gray-600 hover:text-blue-600 transition-colors">
                 <Linkedin size={28} />
               </a>
             </div>
