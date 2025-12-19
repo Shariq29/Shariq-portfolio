@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useState, useEffect } from 'react';
 import { Mail, Phone, Download, Github, Linkedin, Code, Database, Brain, TrendingUp, Award, Briefcase, GraduationCap, ChevronRight, ExternalLink, Menu, X } from 'lucide-react';
 
@@ -26,7 +24,7 @@ export default function Portfolio() {
   const skills = {
     'Programming': [
       { name: 'Python', level: 90 },
-      { name: 'SQL', level: 90 },
+      { name: 'SQL', level: 85 },
       { name: 'C/C++', level: 75 }
     ],
     'Data Science & ML': [
@@ -125,7 +123,7 @@ export default function Portfolio() {
 };
 
   const SkillBar = ({ name, level }: SkillBarProps) => {
-    const [width, setWidth] = useState<number>(0);
+    const [width, setWidth] = useState(0);
 
     useEffect(() => {
       setTimeout(() => setWidth(level), 100);
@@ -232,10 +230,10 @@ export default function Portfolio() {
               </a>
             </div>
             <div className="flex justify-center gap-6 mt-8">
-              <a href="https://github.com/Shariq29" className="text-gray-600 hover:text-blue-600 transition-colors">
+              <a href="https://github.com/Shariq29" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600 transition-colors">
                 <Github size={28} />
               </a>
-              <a href="https://www.linkedin.com/in/shariq-ahmad-a04147234/" className="text-gray-600 hover:text-blue-600 transition-colors">
+              <a href="https://www.linkedin.com/in/shariq-ahmad-a04147234/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600 transition-colors">
                 <Linkedin size={28} />
               </a>
             </div>
@@ -334,11 +332,16 @@ export default function Portfolio() {
                   <div className="bg-green-50 border-l-4 border-green-500 p-3 mb-4 rounded">
                     <div className="text-sm font-semibold text-green-700">{project.metrics}</div>
                   </div>
-                  <a href={project.github} className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-medium">
-                    <Github size={18} />
-                    View on GitHub
-                    <ChevronRight size={16} />
-                  </a>
+                  <div className="flex gap-3">
+                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-medium px-4 py-2 border border-blue-600 rounded-lg hover:bg-blue-50 transition-all">
+                      <Github size={18} />
+                      GitHub
+                    </a>
+                    <a href={project.live} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-purple-600 hover:text-purple-700 font-medium px-4 py-2 border border-purple-600 rounded-lg hover:bg-purple-50 transition-all">
+                      <ExternalLink size={18} />
+                      Live Demo
+                    </a>
+                  </div>
                 </div>
               </div>
             ))}
@@ -387,7 +390,7 @@ export default function Portfolio() {
               <div key={idx} className="bg-gradient-to-br from-purple-50 to-blue-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <h3 className="text-xl font-bold mb-3 text-gray-800">{study.title}</h3>
                 <p className="text-gray-600 mb-4">{study.description}</p>
-                <a href={study.link} className="inline-flex items-center gap-2 text-purple-600 hover:text-purple-700 font-medium">
+                <a href={study.link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-purple-600 hover:text-purple-700 font-medium">
                   Read More
                   <ExternalLink size={16} />
                 </a>
